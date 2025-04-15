@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: cgpa-cwa-converter
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
+    autoDeploy: true

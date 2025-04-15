@@ -1,0 +1,13 @@
+
+{
+  "name": "cgpa-cwa-converter",
+  "version": "1.0.0",
+  "description": "A web app to convert between CGPA and CWA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
